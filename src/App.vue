@@ -2,7 +2,6 @@
   <div id="app">
     <h1>Learn Vue</h1>
     <create-component></create-component>
-    <create-component-second></create-component-second>
   </div>
 </template>
 
