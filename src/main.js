@@ -1,10 +1,10 @@
-import Vue from 'vue'
-import App from './App.vue'
-
+import Vue from 'vue';
+import App from './App.vue';
+import router from './router/index';
 Vue.config.productionTip = false
 
 
-// $mount可以使用$mount代替
+// el可以使用$mount代替
 // render接收的参数是一个createElement方法定义
 // new Vue({
 //   el: '#app',
@@ -14,5 +14,6 @@ Vue.config.productionTip = false
 // })
 
 new Vue({
+  router,
   render: h => h(App),
 }).$mount('#app')
